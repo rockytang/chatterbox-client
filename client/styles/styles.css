@@ -52,6 +52,18 @@ form {
     margin-bottom: 20px;
 }
 
+.textBox {
+    height: 300px;
+    width: 500px;
+    border: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.textBox:hover {
+    border-color: aqua;
+}
+
 form input[type=text] {
     margin-right: 10px;
     width: 70%;
