@@ -16,6 +16,14 @@
     <div id="main">
       <h1>chatterbox</h1>
       <!-- Your HTML goes here! -->
+      <label>Username:</label>
+      <input id="username" value="Kaivon" onclick='this.value=""'></input>
+
+      <label>RoomName:</label>
+      <input id="roomname" value="MainRoom" onclick='this.value=""'></input>
+
+      <button class="getRoom">Get Latest Room Messages</button>
+
       <form>
         <textarea class="textBox">
 
@@ -23,9 +31,11 @@
       </form>
 
         <button class="post">Post Message</button>
+
         <button class="get">Get Latest Messages</button>
 
         <div id="chats"></div>
+
         <div id="newMessages"></div>
     </div>
   </body>
