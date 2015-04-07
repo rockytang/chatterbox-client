@@ -20,6 +20,7 @@ body {
     font-size: 35px;
     margin-bottom: 5px;
     padding: 5px;
+    color: violet;
 }
 
 #main h1 span {
@@ -93,4 +94,14 @@ form input[type=text] {
 
 .spinner img {
     padding: 10px;
+}
+
+
+.message p {
+    color: steelblue;
+}
+
+.friends {
+    color: tomato;
+    font-weight: bold;
 }
